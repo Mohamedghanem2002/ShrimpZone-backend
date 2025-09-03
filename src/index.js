@@ -1,6 +1,6 @@
-'use strict';
+"use strict";
 
-module.exports = {
+const strapiApp = {
   /**
    * An asynchronous register function that runs before
    * your application is initialized.
@@ -18,3 +18,6 @@ module.exports = {
    */
   bootstrap(/*{ strapi }*/) {},
 };
+
+module.exports = strapiApp;
+export default strapiApp;
